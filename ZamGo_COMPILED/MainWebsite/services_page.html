@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZamGo: Your Travel Guide Website</title>
+    <link rel="stylesheet" href="services_page.css">
+</head>
+<body>
+
+<header class="top-header">
+    <nav class="top-nav">
+        <ul>
+            <li><a href="#">About</a></li>
+            <div class="logo-container">
+                <img src="https://i.imgur.com/cmTcAz1.png" alt="ZamGo Logo">
+            </div>
+            <li><a href="#">Help</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="banner">
+<h1><b>ZAMGO</b></h1>
+    <p>"Your travel buddy website for more adventurous trips."</p>
+</section>
+
+<nav class="main-nav">
+    <ul>
+    <li><a href="zamgo_travel_website.html">Home</a></li><span style="color: white;">|</span>
+        <li><a href="travels_page.html">Travels</a></li><span style="color: white;">|</span>
+        <li><a href="#">Tourist Spots</a></li><span style="color: white;">|</span>
+        <li><a href="services_page.html" class="active">Services</a></li><span style="color: white;">|</span>
+        <li><a href="#">Previews</a></li><span style="color: white;">|</span>
+        <li><a href="#">Updates</a></li><span style="color: white;">|</span>
+        <li><a href="#">Featured</a></li>
+    </ul>
+</nav>
+
+<section class="search-section">
+     <div class="search-quotes-container">
+        <div class="search-bar">
+            <input type="text" placeholder="Search for destinations...">
+            <button>Search</button>
+        </div>
+        <div class="divider"></div>
+        <div class="flashing-quotes">
+            <p id="quote-text">Explore Zamboanga City with ZamGo!</p>
+        </div>
+    </div>
+</section>
+
+<main>
+	<div class="hotels-container">
+		<h2>Hotels</h2>
+		<div class="slideshow">
+			<button class="prev" onclick="prevHotel()">&#10094;</button>
+			<img id="hotel-image" src="https://lh3.googleusercontent.com/p/AF1QipP66DKpNMNSUdLSu8NaDeOILnxRAhPUGBZSy635=s680-w680-h510" alt="Marcian Garden Hotel">
+			<button class="next" onclick="nextHotel()">&#10095;</button>
+		</div>
+		<div class="hotel-details">
+			<h3 id="hotel-name">Marcian Garden Hotel</h3>
+			<p id="hotel-description">A stylish hotel with luxurious amenities, offering comfort and convenience in the heart of Zamboanga City.</p>
+		</div>
+	</div>
+</main>
+<footer>
+        <nav>
+            <ul>
+                <li><a href="#">Privacy Policy</a></li> <span style="color: white;">|</span>
+                <li><a href="#">Terms & Conditions</a></li> <span style="color: white;">|</span>
+                <li><a href="#">FAQs</a></li>
+            </ul>
+        </nav>
+		<nav>
+			<p>&copy; 2025 ZAMGO | All Rights Reserved</p>
+			<ul>
+				<li><a href="file:///C:/Users/ASHLEY%20NICOLE/OneDrive/Desktop/IT%20Elective/quizpractice/quiz_practice.html">ZamGo Official</a></li> 
+				<li><a href="https://www.facebook.com/zamgo/">Facebook</a></li>
+				<li><a href="https://www.instagram.com/zamgoofficial/#">Instagram</a></li>
+				<li><a href="https://www.x.com/zamgo/">X</a></li>
+				<li><a href="https://www.tiktok.com/zamgo/">TikTok</a></li>
+			</ul>
+		</nav>
+    </footer>
+
+<script src="services_page.js"></script>
+</body>
+</html>
